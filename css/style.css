@@ -14,3 +14,63 @@
 html {
     font-size: 62.5%;
 }
+/* Box Model Design */
+.login {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.form-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+    font-size: 1.6rem;
+}
+.logo {
+    width: 150px;
+    margin-bottom: 48px;
+    justify-self: center;
+}
+.title {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.subtitle {
+    color: var(--verylight-pink);
+    font-weight: 300;
+    margin: 0 0 32px;
+    text-align: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.label {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+.input {
+    background-color: var(--input-field);
+    border: none;
+    /* outline: none; */
+    border-radius: 8px;
+    height: 32px;
+    font-size: 1.6rem;
+    padding: 4px;
+    margin-bottom: 16px;
+}
+.primaryButton {
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+    padding: 12px;
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 16px 0 32px;
+}
