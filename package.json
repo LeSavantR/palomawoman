@@ -1,0 +1,19 @@
+{
+  "name": "palomawoman",
+  "version": "1.0.0",
+  "description": "Brand · Clothing Store · https://www.facebook.com/paloma.woman/ Create with JavaScript framework: React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeSavantR/palomawoman.git"
+  },
+  "author": "Ruben Dario Hernandez Centeno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeSavantR/palomawoman/issues"
+  },
+  "homepage": "https://github.com/LeSavantR/palomawoman#readme"
+}
