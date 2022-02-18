@@ -4,6 +4,7 @@
     --input-field: #F7F7F7;
     --black: #000000;
     --hospital-green: #ACD9B2;
+    --hospital-green-hover: #5cc46a;
     --dark: #232830;
 }
 * {
@@ -87,6 +88,9 @@ html {
     font-weight: bold;
     cursor: pointer;
     margin: 16px 0 32px;
+}
+.primaryButton:hover {
+    background-color: var(--hospital-green-hover);
 }
 .resend span {
     color: var(--verylight-pink);

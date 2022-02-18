@@ -1,14 +1,18 @@
 function compared (){
-  const password = document.getElementById("#password").attributes;
-  const passwordRepeat = document.getElementById("#repeatPassword").attributes;
+  const subtitle = document.querySelector(".subtitle");
+  const password = document.getElementById("password").value;
+  const passwordRepeat = document.getElementById("repeatPassword").value;
 
-  if (password == passwordRepeat) {
-    console.log(`The password inserted is ${password}, ${passwordRepeat}`);
-  } else {
-    console.log(`Didn't match ${password} and ${passwordRepeat}`);
+  if (password == 0, passwordRepeat == 0){
+    subtitle.style.color = 'red'
+    subtitle.innerHTML = "There can't be empty fields";
+    return false
+  } else if (password != passwordRepeat) {
+    subtitle.style.color = 'blue'
+    subtitle.innerHTML = `The password inserted didn't match ${password}, ${passwordRepeat}`;
+  }
+  else {
+    subtitle.innerHTML= 'All Done';
   }
 };
-
-const submit = document
-  .querySelector("#submit")
-  .addEventListener("click", compared);
+document.querySelector('#submit').addEventListener('click', compared)
